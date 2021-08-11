@@ -1,0 +1,63 @@
+"C:\Program Files\Java\jdk-10.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\lib\idea_rt.jar=51279:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Juntao Ren\IdeaProjects\team02-cs1b-project09\out\production\team02-cs1b-project09;C:\Users\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\src.zip;C:\Users\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\javafx-swt.jar;C:\Users\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\javafx.web.jar;C:\Users\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\javafx.base.jar;C:\Users\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\javafx.fxml.jar;C:\Users\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\javafx.media.jar;C:\Users\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\javafx.swing.jar;C:\Users\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\javafx.controls.jar;C:\Users\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\javafx.graphics.jar" csv.TestGenericList
+Select an indicator to parse. Enter a number between 0 to 4.
+Available indicators are:
+0. Invalid data (for debugging)
+1. GDP per Capita (short for debugging)
+2. School Enrollment (short for debugging)
+3. GDP per Capita
+4. School Enrollment
+2
+The selected indicator is SCHOOL_ENROLLMENT_PRIMARY
+
+Parsing filename resources/childrenEnrolledInPrimary_short_12years.csv
+
+Parsing filename resources/childrenEnrolledInSecondary_short_12years.csv
+
+Country names:
+ Afghanistan, Canada, China, Egypt, Arab Rep., India, Nepal, Syrian Arab Republic, United States,
+
+How many countries do you want to add to the list?
+5
+Adding country with name China to the end of the list.
+Adding country with name China to the end of the list.
+Adding country with name Egypt, Arab Rep. to the end of the list.
+Adding country with name United States to the end of the list.
+Adding country with name Syrian Arab Republic to the end of the list.
+Country Name: China               P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00
+, Country Name: China               P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00
+, Country Name: Egypt, Arab Rep.    P:90.28  S:0.00     P:95.34  S:0.00     P:0.00  S:0.00      P:95.98  S:0.00     P:97.16  S:0.00     P:93.18  S:0.00     P:96.87  S:0.00     P:0.00  S:0.00      P:95.83  S:79.09    P:0.00  S:0.00      P:97.45  S:81.49    P:0.00  S:0.00      P:90.28  S:0.00     P:95.34  S:0.00     P:0.00  S:0.00      P:95.98  S:0.00     P:97.16  S:0.00     P:93.18  S:0.00     P:96.87  S:0.00     P:0.00  S:0.00      P:95.83  S:79.09    P:0.00  S:0.00      P:97.45  S:81.49    P:0.00  S:0.00
+, Country Name: United States       P:93.10  S:88.29    P:94.49  S:88.39    P:95.12  S:88.56    P:93.86  S:87.94    P:92.72  S:86.70    P:91.91  S:87.63    P:92.06  S:87.33    P:91.74  S:88.12    P:92.20  S:88.90    P:92.94  S:90.83    P:0.00  S:0.00      P:0.00  S:0.00      P:93.10  S:88.29    P:94.49  S:88.39    P:95.12  S:88.56    P:93.86  S:87.94    P:92.72  S:86.70    P:91.91  S:87.63    P:92.06  S:87.33    P:91.74  S:88.12    P:92.20  S:88.90    P:92.94  S:90.83    P:0.00  S:0.00      P:0.00  S:0.00
+, Country Name: Syrian Arab RepublicP:89.91  S:63.83    P:91.00  S:65.49    P:91.74  S:66.18    P:92.78  S:66.30    P:92.94  S:66.94    P:0.00  S:68.81     P:0.00  S:70.62     P:63.24  S:45.52    P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:89.91  S:63.83    P:91.00  S:65.49    P:91.74  S:66.18    P:92.78  S:66.30    P:92.94  S:66.94    P:0.00  S:68.81     P:0.00  S:70.62     P:63.24  S:45.52    P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00
+
+Done with creating random linked list of countries.
+
+
+What is the name of the country you want to search for?
+China
+Country China found:
+Country Name: China               P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00
+
+Done with searching for a country name.
+
+
+What is the index of the country you want data on? (Enter a index between 0 and 4)
+Available countries are:
+Country Name: China               P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00
+, Country Name: China               P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00
+, Country Name: Egypt, Arab Rep.    P:90.28  S:0.00     P:95.34  S:0.00     P:0.00  S:0.00      P:95.98  S:0.00     P:97.16  S:0.00     P:93.18  S:0.00     P:96.87  S:0.00     P:0.00  S:0.00      P:95.83  S:79.09    P:0.00  S:0.00      P:97.45  S:81.49    P:0.00  S:0.00      P:90.28  S:0.00     P:95.34  S:0.00     P:0.00  S:0.00      P:95.98  S:0.00     P:97.16  S:0.00     P:93.18  S:0.00     P:96.87  S:0.00     P:0.00  S:0.00      P:95.83  S:79.09    P:0.00  S:0.00      P:97.45  S:81.49    P:0.00  S:0.00
+, Country Name: United States       P:93.10  S:88.29    P:94.49  S:88.39    P:95.12  S:88.56    P:93.86  S:87.94    P:92.72  S:86.70    P:91.91  S:87.63    P:92.06  S:87.33    P:91.74  S:88.12    P:92.20  S:88.90    P:92.94  S:90.83    P:0.00  S:0.00      P:0.00  S:0.00      P:93.10  S:88.29    P:94.49  S:88.39    P:95.12  S:88.56    P:93.86  S:87.94    P:92.72  S:86.70    P:91.91  S:87.63    P:92.06  S:87.33    P:91.74  S:88.12    P:92.20  S:88.90    P:92.94  S:90.83    P:0.00  S:0.00      P:0.00  S:0.00
+, Country Name: Syrian Arab RepublicP:89.91  S:63.83    P:91.00  S:65.49    P:91.74  S:66.18    P:92.78  S:66.30    P:92.94  S:66.94    P:0.00  S:68.81     P:0.00  S:70.62     P:63.24  S:45.52    P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:89.91  S:63.83    P:91.00  S:65.49    P:91.74  S:66.18    P:92.78  S:66.30    P:92.94  S:66.94    P:0.00  S:68.81     P:0.00  S:70.62     P:63.24  S:45.52    P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00      P:0.00  S:0.00
+
+3
+
+What period are you interested in? Available years are from 2006 to 2017.
+Enter [starting year],[end year].
+2003,4400
+Adjusting year 2003 to 2006
+Adjusting year 4400 to 2017
+       United States P:93.10  S:88.29   P:94.49  S:88.39   P:95.12  S:88.56   P:93.86  S:87.94   P:92.72  S:86.70   P:91.91  S:87.63   P:92.06  S:87.33   P:91.74  S:88.12   P:92.20  S:88.90   P:92.94  S:90.83   P:0.00  S:0.00   P:0.00  S:0.00
+
+Done with TestGenericList.
+
+
+Process finished with exit code 0
