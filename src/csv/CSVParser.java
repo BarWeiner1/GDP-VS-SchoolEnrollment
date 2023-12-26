@@ -93,19 +93,19 @@ public class CSVParser {
             throw new InvalidFileFormatException(fileName, "The CSV file is not formatted correctly.");
         }
 
-        if (line == 0 && tokens[0].equals("Data Source") && tokens[1].equals("World Development Indicators")) {
+        if (line == 0 && "Data Source".equals(tokens[0]) && "World Development Indicators".equals(tokens[1])) {
             return;
-        } else if (line == 1 && tokens[0].equals("Indicator")){
-            if (tokens[1].equals("School Enrollment In Primary (% net)")){
+        } else if (line == 1 && "Indicator".equals(tokens[0])){
+            if ("School Enrollment In Primary (% net)".equals(tokens[1])){
                 indicatorType = IndicatorType.SCHOOL_ENROLLMENT_PRIMARY;
-            } else if (tokens[1].equals("School Enrollment In Secondary (% net)")){
+            } else if ("School Enrollment In Secondary (% net)".equals(tokens[1])){
                 indicatorType = IndicatorType.SCHOOL_ENROLLMENT_SECONDARY;
-            } else if (tokens[1].equals("GDP per capita (current US$)")){
+            } else if ("GDP per capita (current US$)".equals(tokens[1])){
                 indicatorType = IndicatorType.GDP_PER_CAPITA;
             } else {
                 throw new InvalidFileFormatException(fileName, "The CSV file is not formatted correctly.");
             }
-        } else if (line == 2 && tokens[0].equals("Last Updated Date")
+        } else if (line == 2 && "Last Updated Date".equals(tokens[0])
                 && ((tokens[1].indexOf("/") > 0) && (tokens[1].substring(tokens[1].indexOf("/")+1).indexOf("/") > 0))) {
             return;
         } else {
@@ -127,7 +127,7 @@ public class CSVParser {
         }
 
         int numCountries;
-        if (tokens[0].equals("Number of Countries")){
+        if ("Number of Countries".equals(tokens[0])){
             try {
                 numCountries = Integer.parseInt(tokens[1]);
             } catch (NumberFormatException e){
