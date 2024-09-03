@@ -1,6 +1,7 @@
 package csv;
 
 import java.io.FileNotFoundException;
+import java.security.SecureRandom;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -42,7 +43,7 @@ public class TestGenericList
 		} while (requestedSize < 1);
 
 		// Used to generate random numbers
-		Random random = new Random();
+		Random random = new SecureRandom();
 
 		LinkedList<Country> selectedCountries = new LinkedList<>();
 
