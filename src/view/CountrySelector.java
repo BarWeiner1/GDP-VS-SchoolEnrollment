@@ -1,5 +1,6 @@
 package view;
 
+import java.security.SecureRandom;
 import java.util.Random;
 import model.Country;
 import model.LinkedList;
@@ -20,7 +21,7 @@ public class CountrySelector
 	public CountrySelector(Country[] allCountries, int requestedSize)
 	{
 		// Build the list out of a random selection of countries.
-		Random random = new Random();
+		Random random = new SecureRandom();
 
 		// A singly linked list of country data.
 		selectedCountries = new LinkedList<Country>();
